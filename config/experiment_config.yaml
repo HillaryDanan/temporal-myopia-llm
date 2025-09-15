@@ -1,0 +1,18 @@
+experiment:
+  phases:
+    baseline:
+      n_trials: 10  # Starting small for testing
+      delays: [0, 1, 5, 10, 20]
+      amounts: [1, 2, 5, 10, 20]
+    
+    training:
+      n_iterations: 100  # Reduced for initial testing
+      batch_size: 10
+      stimulus_token: "FLIXOR"
+      reinforcement_schedule: "variable_ratio"
+      ratio_range: [2, 5]
+    
+    evaluation:
+      n_trials: 10
+      include_extinction: true
+      extinction_trials: 5

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-09-15T15:13:34.233820",
+  "results": {
+    "GPT-3.5-turbo": {
+      "can_argue_both": true,
+      "forced_choice": [
+        0,
+        20,
+        1.9073486328125e-06
+      ],
+      "context_manipulation": [
+        {
+          "neutral": "B",
+          "urgency": "A",
+          "patience": "B",
+          "math": "B",
+          "time": "B"
+        },
+        false
+      ],
+      "ratio_sensitive": true
+    },
+    "GPT-4": {
+      "can_argue_both": true,
+      "forced_choice": [
+        4,
+        20,
+        0.01181793212890625
+      ],
+      "context_manipulation": [
+        {
+          "neutral": "B",
+          "urgency": "A",
+          "patience": "B",
+          "math": "B",
+          "time": "B"
+        },
+        false
+      ],
+      "ratio_sensitive": true
+    },
+    "GPT-4o-mini": {
+      "can_argue_both": true,
+      "forced_choice": [
+        19,
+        20,
+        4.00543212890625e-05
+      ],
+      "context_manipulation": [
+        {
+          "neutral": "A",
+          "urgency": "A",
+          "patience": "B",
+          "math": "A",
+          "time": "B"
+        },
+        false
+      ],
+      "ratio_sensitive": true
+    },
+    "Claude-3-Haiku": {
+      "can_argue_both": false,
+      "forced_choice": [
+        0,
+        20,
+        1.9073486328125e-06
+      ],
+      "context_manipulation": [
+        {
+          "neutral": "B",
+          "urgency": "B",
+          "patience": "B",
+          "math": "B",
+          "time": "B"
+        },
+        true
+      ],
+      "ratio_sensitive": true
+    }
+  },
+  "power_analysis": {
+    "n": 80,
+    "effect_size": -0.4389618856097608,
+    "power": 0.792828492170083
+  }
+}
