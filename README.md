@@ -7,13 +7,13 @@
 
 This repository contains a theoretical framework and experimental implementation for investigating whether Large Language Models (LLMs) can develop temporal reasoning patterns analogous to those observed in addiction, characterized by systematic preference for immediate over delayed rewards.
 
-## 📚 Background
+## Background
 
 Temporal reasoning—the ability to integrate information across time for decision-making—is fundamental to both biological and artificial intelligence. In humans, disruption of temporal reasoning characterizes addiction and other disorders affecting self-control. This project explores whether similar vulnerabilities exist in AI systems, particularly those trained with reinforcement learning.
 
 **Key Question**: Can targeted reinforcement induce systematic temporal biases in LLMs similar to the temporal myopia observed in addiction?
 
-## 🎯 Project Goals
+## Project Goals
 
 1. **Establish baseline temporal reasoning patterns** in current LLMs
 2. **Test whether reinforcement can induce temporal myopia** using neutral stimuli
