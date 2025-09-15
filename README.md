@@ -46,7 +46,7 @@ where V = present value, A = reward amount, D = delay, k = discount parameter
 ```bash
 # Python 3.8 or higher required
 python --version
-
+1
 # Clone repository
 git clone https://github.com/HillaryDanan/temporal-myopia-llm.git
 cd temporal-myopia-llm
